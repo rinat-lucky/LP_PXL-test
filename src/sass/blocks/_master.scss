@@ -1,0 +1,30 @@
+.master {
+    padding-top: 27px;
+    padding-bottom: 250px;
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 592px);
+        grid-template-rows: repeat(auto-fit, auto);
+        grid-auto-rows: auto;
+        gap: 48px;
+        margin-top: 82px;
+    }
+    &__item {
+        display: grid;
+        grid-template-rows: 54px 1fr 120px;
+        width: 592px;
+        background-color: #3d3c5a;
+        border-radius: 16px;
+        padding: 51px 48px 48px 48px;
+        box-sizing: border-box;
+        h3 {
+            margin: 0;
+        }
+    }
+    &__descr {
+        @include text;
+    }
+    &__btn {
+        align-self: flex-end;
+    }
+}

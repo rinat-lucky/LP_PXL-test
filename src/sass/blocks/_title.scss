@@ -1,0 +1,17 @@
+.title {
+    position: relative;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    color: $main-color;
+    &__subtitle {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    &_promo {  
+        font-size: 64px;
+        line-height: 80px;
+    }
+}

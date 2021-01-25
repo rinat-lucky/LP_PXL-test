@@ -1,0 +1,36 @@
+@import '../../node_modules/normalize-scss/sass/normalize';
+@import 'libs/stylesheet';
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Mabry Pro', sans-serif;
+    color: $main-color;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #0C0B31;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1232px;
+    margin: 0 auto;
+    &_max {
+        width: 1488px;
+    }
+}
+
+@import 'blocks/menu';
+@import 'blocks/buttons';
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/about';
+@import 'blocks/master';
+@import 'blocks/gallery';
+@import 'blocks/footer';
+@import 'blocks/media';
+

@@ -1,0 +1,44 @@
+.background {
+    display: none;
+    position: absolute;
+    top: -80px;
+    left: 400px;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.promo {
+    position: relative;
+    padding: 117px 0 250px 0;
+    &__wrapper {
+        width: 700px;
+    }
+    &__text {
+        margin-top: 28px;
+        width: 430px;
+        @include text;
+    }
+    &__btn {
+        margin-top: 71px;
+    }
+    &__event {
+        display: flex;
+        justify-content: space-between;
+        width: 757px;
+        margin-top: 286px;
+        @include text;
+    }
+    &__item {
+        border-right: 1px solid rgba($color: #ffffff, $alpha: 0.3);
+        padding-right: 30.5px;
+        &:last-child {
+            border-right: none;
+        }
+        a {
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

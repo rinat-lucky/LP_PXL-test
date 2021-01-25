@@ -1,0 +1,49 @@
+.about {
+    padding-top: 27px;
+    padding-bottom: 250px;
+    &__grid {
+        margin-top: 91px;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 592px 510px;
+        grid-template-rows: none;
+        div > p {
+            @include text;
+            margin: 0;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            position: relative;
+            @include text;
+            margin-bottom: 39px;
+            padding-left: 56px;
+            padding-right: 20px;
+            list-style-type: none;
+            &::before {
+                content: " ";
+                position: absolute;
+                display: block;
+                top: 15px;
+                left: 33px;
+                width: 5px;
+                height: 5px;
+                background-color: $main-color;
+            }
+        }
+        span {
+            @include text;
+            color: #ff7777;
+            margin-top: 5px;
+        }
+        h3 {
+            margin-top: 90px;
+        }
+        div div p {
+            margin-top: 22px;
+        }
+    }
+    
+}
