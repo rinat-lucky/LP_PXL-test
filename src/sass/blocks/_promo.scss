@@ -1,14 +1,14 @@
 .background {
-    display: none;
     position: absolute;
-    top: -80px;
-    left: 400px;
+    top: -190px;
+    left: 600px;
     opacity: 0.9;
     z-index: -1;
 }
 
 .promo {
     position: relative;
+    top: 100px;
     padding: 117px 0 250px 0;
     &__wrapper {
         width: 700px;

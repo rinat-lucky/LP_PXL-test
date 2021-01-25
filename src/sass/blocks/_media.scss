@@ -3,9 +3,8 @@
         width: 1232px;
     }
     .background {
-        display: none;
         position: absolute;
-        top: -80px;
+        top: -190px;
         left: 500px;
         z-index: -1;
     }
@@ -64,9 +63,6 @@
         }
     }
     .menu {
-        position: fixed;
-        background-color: #0C0B31;
-        width: 100%;
         height: 74px;
         z-index: 20;
         &__grid {
@@ -156,7 +152,7 @@
     .background {
         display: initial;
         position: relative;
-        top: -25px;
+        top: -90px;
         left: -80px;
         width: 950px;
         height: 562px;
@@ -167,7 +163,7 @@
         padding: 0;
         .container {
             position: relative;
-            top: -150px;
+            top: -199px;
         }
         &__wrapper {
             width: 100%;
